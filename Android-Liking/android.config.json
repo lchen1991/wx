@@ -1,0 +1,6 @@
+{
+  "AppName":"LikingFit",
+  "AppId":"com.liking.user",
+  "SplashText":"Liking\nFit",
+  "WeexBundle":"main.js"
+}

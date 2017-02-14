@@ -1,0 +1,114 @@
+<template>
+
+ <wxc-navpage data-role="none" height={{navBarHeight}} background-color="{{backgroundColor}}"
+ title={{title}} title-color="{{titleColor}}" right-item-src="{{rightItemSrc}}" left-item-src="{{leftItemSrc}}">
+
+     <!--<div class="lodingView" style="justify-content: center;align-content: center;-->
+     <!--visibility: visible;position: absolute;top:0; left: 0;right: 0;bottom: 30">-->
+         <!--<image class="progressimg" style="width: 108;height: 108;" src = {{progressicon2}}></image>-->
+         <!--<image class="progressimg" style="width: 90;height: 33;" src = {{progressicon1}}></image>-->
+     <!--</div>-->
+
+     <wxc-panel padding-body="0">
+             <slider class="slider" append="tree" interval="{{sliders.interval}}" auto-play="{{sliders.autoPlay}}">
+               <indicator class="indicator"></indicator>
+               <slider-page repeat="{{sliders.sliderPages}}"></slider-page>
+             </slider>
+      </wxc-panel>
+
+ </wxc-navpage>
+
+
+</template>
+
+<style>
+
+.slider {
+    flex-direction: row;
+    margin-left: 8;
+    margin-right: 8;
+  }
+
+ .indicator {
+    position: absolute;
+    width: 690;
+    height: 400;
+    top: 140;
+    left: 240;
+    itemColor: #dddddd;
+    itemSelectedColor: rgb(40, 96, 144);
+  }
+
+</style>
+
+<script>
+ require('weex-components');
+ var apis = require('../common/apis');
+
+    var img0 = 'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=150776860,710677028&fm=116&gp=0.jpg';
+    var img1 = 'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1208767633,516149307&fm=116&gp=0.jpg';
+
+    module.exports = {
+        data : {
+
+         dataRole: 'navbar',
+         backgroundColor: '#2e2f34',
+         navBarHeight: 120,
+         title: "Liking Fit凌空店",
+         titleColor: '#23ec7d',
+         rightItemSrc: 'https://raw.githubusercontent.com/lchen1991/gtest/master/icon_dishes_details_add.png',
+         rightItemTitle: '',
+         rightItemColor: 'black',
+         leftItemSrc: 'https://raw.githubusercontent.com/lchen1991/gtest/master/icon_chenge.png',
+         leftItemTitle: '',
+         leftItemColor: 'black',
+
+         progressicon1:'https://raw.githubusercontent.com/lchen1991/gtest/master/stateview_loading_icon.png',
+
+         progressicon1:'https://raw.githubusercontent.com/lchen1991/gtest/master/stateview_no_network.png',
+
+         eventCnt: 0,
+         sliders: {
+                   interval: 1000,
+                   autoPlay: true,
+                   sliderPages: []
+                 },
+        },
+
+        created: function (){
+                 nativeLog('ssssss:created');
+                   var self = this;
+                   require('@weex-module/RModule').performCommonRequestParams(function(ret) {
+                      var p = "platform=android&app_version=1.4.0&" + ret
+                      nativeLog('request:' + p);
+                      apis.getHomeBanner(p, function(ret) {
+                               var result = JSON.parse(ret.data);
+                               for (var i = 0; i < result.data.banner.length; i++) {
+                                       var itemsub = [];
+                                        var item = result.data.banner[i];
+                                        itemsub.push(item);
+                                        var hehe = {
+                                          items :[],
+                                          $index: 0,
+                                        };
+                                        hehe.items = itemsub;
+                                        hehe.$index = i;
+                                       self.sliders.sliderPages.push(hehe);
+                               }
+                               nativeLog('request:123' + result.data.banner[0].img_url);
+                               nativeLog('request:123' + JSON.stringify(self.sliders.sliderPages));
+                      });
+                   });
+
+              },
+        methods: {
+
+              handleSliderChange: function() {
+                var nowCnt = this.eventCnt + 1
+                this.eventCnt = nowCnt
+              },
+
+            }
+    }
+
+</script>

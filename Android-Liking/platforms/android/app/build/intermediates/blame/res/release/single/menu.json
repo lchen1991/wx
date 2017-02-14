@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/res/merged/release/menu/main_scan.xml",
+        "source": "/Users/chenlei/weex/Android-Liking/platforms/android/app/src/main/res/menu/main_scan.xml"
+    },
+    {
+        "merged": "/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/res/merged/release/menu/main.xml",
+        "source": "/Users/chenlei/weex/Android-Liking/platforms/android/app/src/main/res/menu/main.xml"
+    }
+]

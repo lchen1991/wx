@@ -1,0 +1,9 @@
+{
+    "AppName": "LikingFit",
+    "Version": "0.1",
+    "BuildVersion": "0.1.0",
+    "AppId": "123456",
+    "CodeSign": "ssssssssssssssss",
+    "Profile": "wwwwwwwwwwww",
+    "WeexBundle": "main.js"
+}

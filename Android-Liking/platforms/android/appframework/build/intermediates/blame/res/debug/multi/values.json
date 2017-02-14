@@ -1,0 +1,18 @@
+[
+    {
+        "outputFile": "/Users/budao/app-framework-android/bin/templates/appframework/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": []
+    },
+    {
+        "outputFile": "/Users/chenlei/weex/Android-Liking/platforms/android/appframework/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": []
+    },
+    {
+        "outputFile": "/Users/budao/weex-pack/generator/platforms/templates/android/appframework/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": []
+    },
+    {
+        "outputFile": "/Users/shaozucheng/Documents/weexsample/Android-Liking/platforms/android/appframework/build/intermediates/incremental/mergeDebugResources/merged.dir/values/values.xml",
+        "map": []
+    }
+]

@@ -1,0 +1,129 @@
+<template>
+
+<div style="flex-direction: column;">
+      <wxc-tabbar tab-items={{tabItems}}></wxc-tabbar>
+ </div>
+
+</template>
+
+<script>
+ require('weex-components');
+
+    module.exports = {
+        data : {
+
+         tabItems:[
+               {
+                  index: 0,
+                  title: '约课',
+                  titleColor: '#9198a1',
+                  backgroundColor: '#2e2f34',
+                  icon: '',
+                  image: 'https://raw.githubusercontent.com/lchen1991/gtest/master/lesson_gray.png',
+                  selectedImage: 'https://raw.githubusercontent.com/lchen1991/gtest/master/lesson_green.png',
+                  src: 'modules/LearningCourses.js',
+                  visibility: 'visible',
+                },
+               {
+                index: 1,
+                title: '购卡',
+                 titleColor: '#9198a1',
+                 backgroundColor: '#2e2f34',
+                 icon: '',
+                 image: 'https://raw.githubusercontent.com/lchen1991/gtest/master/recharge_gray.png',
+                 selectedImage: 'https://raw.githubusercontent.com/lchen1991/gtest/master/recharge_green.png',
+                 src: 'modules/tabbar-item.js?itemId=tab2',
+                 visibility: 'hidden',
+               },
+               {
+                index: 2,
+                title: '我',
+                titleColor: '#9198a1',
+                backgroundColor: '#2e2f34',
+                icon: '',
+                image: 'https://raw.githubusercontent.com/lchen1991/gtest/master/my_gray.png',
+                 selectedImage: 'https://raw.githubusercontent.com/lchen1991/gtest/master/my_green.png',
+                 src: 'modules/tabbar-item.js?itemId=tab3',
+                   visibility: 'hidden',
+                }
+            ],
+        },
+        created: function() {
+
+               var bundleUrl = this.$getConfig().bundleUrl;
+                       console.log('hit', bundleUrl);
+                       var nativeBase;
+                       var isAndroidAssets = bundleUrl.indexOf('file://assets/') >= 0;
+                       var isiOSAssets = bundleUrl.indexOf('file:///') >= 0 && bundleUrl.indexOf('WeexDemo.app') > 0;
+                       if (isAndroidAssets) {
+                         nativeBase = 'file://assets/dist/';
+                       }
+                       else if (isiOSAssets) {
+                         // file:///var/mobile/Containers/Bundle/Application/{id}/WeexDemo.app/
+                         // file:///Users/{user}/Library/Developer/CoreSimulator/Devices/{id}/data/Containers/Bundle/Application/{id}/WeexDemo.app/
+                         nativeBase = bundleUrl.substring(0, bundleUrl.lastIndexOf('/') + 1);
+                       }
+                       else {
+                         var host = 'localhost:12580';
+                         var matches = /\/\/([^\/]+?)\//.exec(this.$getConfig().bundleUrl);
+                         if (matches && matches.length >= 2) {
+                           host = matches[1];
+                         }
+                         nativeBase = 'http://' + host + '/' + this.dir + '/build/';
+                       }
+                       var h5Base = './' + this.dir + '/build/';
+                       // in Native
+                       var base = nativeBase;
+                       if (typeof window === 'object') {
+                         // in Browser or WebView
+                         base = h5Base;
+                       }
+
+                       for(var i = 0; i < this.tabItems.length; i++) {
+                           var tabItem = this.tabItems[i];
+                           tabItem.src = base + tabItem.src;
+                           console.log('hit>>>>>>>', tabItem.src);
+                       };
+
+                       this.selected(this.selectedIndex);
+
+                                 this.$on('tabItem.onClick',function(e){
+                                   var detail= e.detail;
+                                   this.selectedIndex = detail.index;
+                                   this.selected(detail.index);
+
+                                   var params = {
+                                     index: detail.index
+                                   };
+                                   this.$dispatch('tabBar.onClick', params);
+                                 });
+
+        },
+
+        methods: {
+              ready: function (e) {
+                var vm = this;
+                vm.$on('tabBar.onClick',function(e){
+                  var detail= e.detail;
+                  nativeLog('tabBar.onClick ' + detail.index + " : " +  detail);
+                });
+              },
+
+              selected: function(index) {
+                            for(var i = 0; i < this.tabItems.length; i++) {
+                              var tabItem = this.tabItems[i];
+                              if(i == index){
+                                tabItem.icon = tabItem.selectedImage;
+                                tabItem.titleColor = this.selectedColor;
+                                tabItem.visibility = 'visible';
+                              }
+                              else {
+                                tabItem.icon = tabItem.image;
+                                tabItem.titleColor = this.unselectedColor;
+                                tabItem.visibility = 'hidden';
+                              }
+                            }
+                          },
+            }
+    }
+</script>
