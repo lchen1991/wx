@@ -7,16 +7,16 @@
         <scroller>
             <div>
 
-    <div style="width: 750;height: 530;right: 0; position: relative; background-color: #edeff6">
+    <div style="width: 750;height: 540;right: 0; position: relative; background-color: #edeff6">
          <div style="position: absolute;z-index:1;"> <image style="width: 750;height: 460" src="{{myHeadBg}}"></image> </div>
 
          <div style="width: 750;height: 500;flex-direction:column; position: absolute;z-index:2;background-color: transparent;justify-content:center;align-items: center">
-             <image style="width: 60;height: 60" src="{{myHead}}"></image>
+             <image style="width: 90;height: 90" src="{{myHead}}"></image>
              <wxc-button style="margin-top: 8;background-color: #23ec7d;" value="登录" type="small"   size="small"></wxc-button>
 
          </div>
 
-        <div style="margin-top: 410;margin-left: 100;margin-right:100;padding-bottom:30;padding-top:30;background-color: #ffffff;justify-content: center;align-content: center">
+        <div style="margin-top: 400;margin-left: 100;margin-right:100;padding-bottom:30;padding-top:30;background-color: #ffffff;justify-content: center;align-content: center;border-radius: 6">
             <div><text>个人数据</text></div>
             <div style="flex-direction: row">
                 <div><text>体侧评分</text></div>
@@ -26,7 +26,7 @@
 
     </div>
 
-    <div style="flex-direction: row">
+    <div style="flex-direction: row;">
 
         <div style="flex: 1;margin: 10;justify-content:center;align-items: center">
             <image style="width: 80;height: 80" src="{{tab1}}"></image>
