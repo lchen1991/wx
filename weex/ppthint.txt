@@ -2,7 +2,8 @@
 	
 
 2、Weex的工作原理
-   图示
+   图示 （三张）
+  .we文件开发之后，经过Transformer模块将.we 文件转为 JS Bundle，JS Bundle（主要描述了业务页面的模  板、结构、数据逻辑）；然后再将其部署到业务服务端。客户端访问Weex页面时，首先会网络请求JS Bundle，JS Bundle被加载到客户端本地后，会进入JS Framework中进行解析渲染；JS Framework解析和渲染的过程其实是根据JS Bundle的数据结构创建Virtual DOM 和数据绑定，然后通过JS Bridge发送给各个平台的RenderEngine进行Native渲染。渲染后产生的就是纯Native页面。
 
 3、使用
   (1)环境安装
