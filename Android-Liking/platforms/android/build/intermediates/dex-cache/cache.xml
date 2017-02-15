@@ -3,228 +3,228 @@
 
     <item
         is-multidex="false"
-        jar="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/jacoco/jacocoagent.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="fdca30f45b60c6ba724c26a9ce127975e26d4bcb">
-        <dex dex="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/jacocoagent_839fc110138e087fc83dba0fe784d3a827008417.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="0e1f104cf60bfe34147ef670229f2635789c79a4">
-        <dex dex="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/com.journeyapps-zxing-android-embedded-3.4.0_24e13d5c84e8d3553469713d64a58c2bc1732cdc.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/com.taobao.android/weex_sdk/0.9.4/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="2b3732bd12d096f61509d37da40dc01c98b2f175">
-        <dex dex="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/com.taobao.android-weex_sdk-0.9.4_2c0b16a570fcbaab72e494f010a0b2784da7304a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/chenlei/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="129874135e6081269ace2312092031558865de12">
-        <dex dex="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4_8c5c7857ed0309cf9133d8316bb1f8c8e6b4d9c7.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
-        <dex dex="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_cde0da777fb66e1fbacb3ed4725ac86ce94dfe5a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/android/appframework/unspecified/jars/classes.jar"
+        jar="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/android/appframework/unspecified/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.2"
         sha1="b440aef17dbb2b429959c58efeff12ec5028ea97">
-        <dex dex="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/android-appframework-unspecified_d0875531307a7927cf29d504057af692cd1fe635.jar" />
+        <dex dex="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/android-appframework-unspecified_06b223b205b8920825acf05ff50d3bb3d2335745.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/com.taobao.android/weex_inspector/0.9.4.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="034dd0555c463bf83412d2899d90b2ae81fe82ba">
-        <dex dex="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/com.taobao.android-weex_inspector-0.9.4.0_c7117902759596c2a390fa2334bb6a0eaf216f24.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.10.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="857099e23430445aeb65cf703d5adf646ff280f1">
-        <dex dex="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-0.10.0_d666cfa238b9fe927cb93438d2b196dbab06ce8f.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/chenlei/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
-        <dex dex="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/library-2.4.0_7432ba51cdf6b29edab644a8e55180dde1f14b38.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.10.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="6e1ed00013584399dbe27d45ac1fd6a9828c9fca">
-        <dex dex="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-0.10.0_2edcf9caf06e553fc6afdc960b83bfcc397f560b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/chenlei/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
-        <dex dex="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_e4cddcc098e187c5d5bd3c79c87a11a95ba69c7a.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
+        jar="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.1.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.2"
         sha1="09c5e804bc67fc0580360043dff067df574a60d4">
-        <dex dex="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.1.1_247ebab7ee706e17a34c5001725a879d4742bb12.jar" />
+        <dex dex="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-recyclerview-v7-23.1.1_f4f57e28bdad76d315855cfe1a5ce8d35a723bdc.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
-        <dex dex="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_9b45d9c606bea12248f2e2d12fd5f63eab43e7d4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/chenlei/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.3.0/7896d229b6aa7884552ab9c23de54c7eb0de8203/okhttp-ws-2.3.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="7896d229b6aa7884552ab9c23de54c7eb0de8203">
-        <dex dex="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-2.3.0_7d8cbdd80b59c59069c6471318049c63e8782582.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/android/weexplugin/unspecified/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="15e67bf1a93a1ec34308ce324bdc1f4be949bed4">
-        <dex dex="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/android-weexplugin-unspecified_a8d77749575aa38b94608f110ef3f182e17ca0dd.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.10.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="65f0c887ee1f57cd0ea65b228e39b7f35372b798">
-        <dex dex="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-0.10.0_44a7628c3e6e3e977e059542ac998d880c5986f4.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/chenlei/AndroidTools/androidsdk/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
-        <dex dex="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_47933e88a2c03971a74c65b7d5986f881369dd05.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.10.0/jars/classes.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="5e88a2a26ac71cd7f8fd8bd9f9381fa06d1a47a3">
-        <dex dex="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-0.10.0_2fd3928fb7f62a7ca76159e9f83deef8c682dcde.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/chenlei/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.3.0/2e7bc7033dc2c8423e661224171b3133fb155b28/okhttp-2.3.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="2e7bc7033dc2c8423e661224171b3133fb155b28">
-        <dex dex="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/okhttp-2.3.0_5381f033f10f0192ed11babb0050877d1781e480.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/chenlei/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
-        <dex dex="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/core-3.2.1_9a70e5ac843bed6e1ee6043ac932fe9f9674dc96.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/chenlei/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.1.46.android/108717c93f7aec31fb86db57cb4ad1e26034c638/fastjson-1.1.46.android.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="108717c93f7aec31fb86db57cb4ad1e26034c638">
-        <dex dex="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/fastjson-1.1.46.android_95b27b977f0b9f1894ec35c6280d29b7d3954817.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/chenlei/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.3.0/1b355f73402020c5a0dcca58affc3ec3dfeabac1/okio-1.3.0.jar"
-        jumboMode="false"
-        optimize="true"
-        revision="23.0.2"
-        sha1="1b355f73402020c5a0dcca58affc3ec3dfeabac1">
-        <dex dex="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/okio-1.3.0_c2d1604c16fa2cf3b7a17186bf8513412e140c1b.jar" />
-    </item>
-    <item
-        is-multidex="false"
-        jar="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.10.0/jars/classes.jar"
+        jar="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fbcore/0.10.0/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.2"
         sha1="d323cf4983bdfce7136a1ce5e32710e1b36b20fe">
-        <dex dex="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-0.10.0_c817b5bafa4d1b32f6564dbea5ef54e75dba7b02.jar" />
+        <dex dex="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fbcore-0.10.0_a7fbbf3816ff621c74e8502c09373522bad19717.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jar="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/jacoco/jacocoagent.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="fdca30f45b60c6ba724c26a9ce127975e26d4bcb">
+        <dex dex="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/jacocoagent_b7f8ea47428549fe98f29aae6c53ddcb768c9a67.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/com.taobao.android/weex_sdk/0.9.4/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2b3732bd12d096f61509d37da40dc01c98b2f175">
+        <dex dex="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/com.taobao.android-weex_sdk-0.9.4_688d79d63b183ff0a2ce87f621b2b1c1d493f003.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shaozucheng/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/1.3.0/1b355f73402020c5a0dcca58affc3ec3dfeabac1/okio-1.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="1b355f73402020c5a0dcca58affc3ec3dfeabac1">
+        <dex dex="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/okio-1.3.0_7df72e16a14f2204314daf9b2a78120f0d951202.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/com.facebook.fresco/fresco/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="857099e23430445aeb65cf703d5adf646ff280f1">
+        <dex dex="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-fresco-0.10.0_d6960285c1dd5dabc8e93d17b6829d3be85df0eb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shaozucheng/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp/2.3.0/2e7bc7033dc2c8423e661224171b3133fb155b28/okhttp-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2e7bc7033dc2c8423e661224171b3133fb155b28">
+        <dex dex="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/okhttp-2.3.0_0504fb4880a9d166154522ede4d8be1cdf0c0aac.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.2"
         sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
-        <dex dex="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_3eeb1065b435db169642134272b7a87038e76ee3.jar" />
+        <dex dex="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1_6d5d6b05acede60ed206cb72b0c902bb136cc3bc.jar" />
     </item>
     <item
         is-multidex="false"
-        jar="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
+        jar="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-appcompat-v7-23.1.1_e70bbba5a38be7039f88b822b1ab6652980b79a2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/com.facebook.fresco/drawee/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="65f0c887ee1f57cd0ea65b228e39b7f35372b798">
+        <dex dex="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-drawee-0.10.0_85e388b6d48ec7d17ee4d5ad0ef6ff7254f2a044.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6e1ed00013584399dbe27d45ac1fd6a9828c9fca">
+        <dex dex="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-0.10.0_d42289db31aedad390cf5552435bf625dbac0aa8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/com.android.support/design/23.1.1/jars/classes.jar"
         jumboMode="false"
         optimize="true"
         revision="23.0.2"
         sha1="379471b2bd17d9737c050345c08e8c7d16589784">
-        <dex dex="/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.1.1_a221590287e432353e10211a2e34ffc80b75e848.jar" />
+        <dex dex="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-design-23.1.1_f3402a489ab917f8dd3b60164097e9302db1c832.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shaozucheng/.gradle/caches/modules-2/files-2.1/com.google.zxing/core/3.2.1/2287494d4f5f9f3a9a2bb6980e3f32053721b315/core-3.2.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="2287494d4f5f9f3a9a2bb6980e3f32053721b315">
+        <dex dex="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/core-3.2.1_4d57452882509b96f85d1e9758124ae662e3f4d7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/com.facebook.fresco/imagepipeline-base/0.10.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="5e88a2a26ac71cd7f8fd8bd9f9381fa06d1a47a3">
+        <dex dex="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/com.facebook.fresco-imagepipeline-base-0.10.0_d553b525a4a250b5b9a410302ecb6be404782b20.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shaozucheng/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp/okhttp-ws/2.3.0/7896d229b6aa7884552ab9c23de54c7eb0de8203/okhttp-ws-2.3.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7896d229b6aa7884552ab9c23de54c7eb0de8203">
+        <dex dex="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/okhttp-ws-2.3.0_5bf12952d92ac5c67255bb96b602cc3190f55ba0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/com.taobao.android/weex_inspector/0.9.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="034dd0555c463bf83412d2899d90b2ae81fe82ba">
+        <dex dex="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/com.taobao.android-weex_inspector-0.9.4.0_fa1b783c42647294f1423df36cce52c02e2b7a0c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shaozucheng/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_da3f0ea3619ddb348d326439c78ec6b4940ceb4a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shaozucheng/.gradle/caches/modules-2/files-2.1/com.alibaba/fastjson/1.1.46.android/108717c93f7aec31fb86db57cb4ad1e26034c638/fastjson-1.1.46.android.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="108717c93f7aec31fb86db57cb4ad1e26034c638">
+        <dex dex="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/fastjson-1.1.46.android_ca9a81ee5b1b973287c753643f10a35f987f19e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shaozucheng/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1_cb7ed74a6264aa7e852c9286239083eb17a01c6f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/android/weexplugin/unspecified/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="15e67bf1a93a1ec34308ce324bdc1f4be949bed4">
+        <dex dex="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/android-weexplugin-unspecified_4aaf055b328fb88d0c6c2a73b5ad679ab6f1b29f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/com.android.support-support-v4-23.1.1_3f7af4e8908b3ff49c59f524d948582a7cc810c3.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shaozucheng/.gradle/caches/modules-2/files-2.1/com.nineoldandroids/library/2.4.0/e9b63380f3a242dbdbf103a2355ad7e43bad17cb/library-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="e9b63380f3a242dbdbf103a2355ad7e43bad17cb">
+        <dex dex="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/library-2.4.0_811092eecd8f42193306f4b53de98248387bf92f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/exploded-aar/com.journeyapps/zxing-android-embedded/3.4.0/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="0e1f104cf60bfe34147ef670229f2635789c79a4">
+        <dex dex="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/com.journeyapps-zxing-android-embedded-3.4.0_550881b1508b90b08de81af506edba5b858ff609.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/shaozucheng/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-android/1.1.4/129874135e6081269ace2312092031558865de12/bolts-android-1.1.4.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.2"
+        sha1="129874135e6081269ace2312092031558865de12">
+        <dex dex="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/pre-dexed/debug/bolts-android-1.1.4_6a6ec2ae1cd2fca668fa3d9ec48a380a73391e49.jar" />
     </item>
 
 </items>

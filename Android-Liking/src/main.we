@@ -2,11 +2,14 @@
 
 <div style="flex-direction: column;">
       <wxc-tabbar tab-items={{tabItems}}></wxc-tabbar>
- </div>
+</div>
 
 </template>
 
 <script>
+
+    // require('npm-module-name') : 依赖一个 NPM 模块
+
  require('weex-components');
 
     module.exports = {
@@ -43,7 +46,7 @@
                 icon: '',
                 image: 'https://raw.githubusercontent.com/lchen1991/gtest/master/my_gray.png',
                  selectedImage: 'https://raw.githubusercontent.com/lchen1991/gtest/master/my_green.png',
-                 src: 'modules/tabbar-item.js?itemId=tab3',
+                 src: 'modules/my.js',
                    visibility: 'hidden',
                 }
             ],

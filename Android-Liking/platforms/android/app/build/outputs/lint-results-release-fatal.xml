@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<issues format="4" by="lint 25.2.3">
+<issues format="4" by="lint 25.2.2">
 
     <issue
         id="MissingTranslation"
@@ -19,7 +19,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="/Users/chenlei/weex/Android-Liking/platforms/android/app/src/main/res/values/strings.xml"
+            file="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/src/main/res/values/strings.xml"
             line="3"
             column="13"/>
     </issue>
@@ -42,7 +42,7 @@ You can tell lint (and other tools) which language is the default language in yo
         errorLine2="            ~~~~~~~~~~~~~~~~"
         quickfix="adt">
         <location
-            file="/Users/chenlei/weex/Android-Liking/platforms/android/app/src/main/res/values/strings.xml"
+            file="/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/src/main/res/values/strings.xml"
             line="9"
             column="13"/>
     </issue>

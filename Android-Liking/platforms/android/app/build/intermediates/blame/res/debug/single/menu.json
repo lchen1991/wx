@@ -4,6 +4,14 @@
         "source": "/Users/chenlei/weex/Android-Liking/platforms/android/app/src/main/res/menu/main_scan.xml"
     },
     {
+        "merged": "/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/res/merged/debug/menu/main.xml",
+        "source": "/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/src/main/res/menu/main.xml"
+    },
+    {
+        "merged": "/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/build/intermediates/res/merged/debug/menu/main_scan.xml",
+        "source": "/Users/shaozucheng/Documents/weexsample/wx/Android-Liking/platforms/android/app/src/main/res/menu/main_scan.xml"
+    },
+    {
         "merged": "/Users/chenlei/weex/Android-Liking/platforms/android/app/build/intermediates/res/merged/debug/menu/main.xml",
         "source": "/Users/chenlei/weex/Android-Liking/platforms/android/app/src/main/res/menu/main.xml"
     }

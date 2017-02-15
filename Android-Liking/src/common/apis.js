@@ -1,5 +1,7 @@
 
 
+//require('@weex-module/xxx') : 依赖一个 Weex 原生模块
+
 var stream
 __weex_define__('@weex-temp/api', function (__weex_require__) {
     stream = __weex_require__('@weex-module/stream')

@@ -3,19 +3,12 @@
  <wxc-navpage data-role="none" height={{navBarHeight}} background-color="{{backgroundColor}}"
  title={{title}} title-color="{{titleColor}}" right-item-src="{{rightItemSrc}}" left-item-src="{{leftItemSrc}}">
 
-     <!--<div class="lodingView" style="justify-content: center;align-content: center;-->
-     <!--visibility: visible;position: absolute;top:0; left: 0;right: 0;bottom: 30">-->
-         <!--<image class="progressimg" style="width: 108;height: 108;" src = {{progressicon2}}></image>-->
-         <!--<image class="progressimg" style="width: 90;height: 33;" src = {{progressicon1}}></image>-->
-     <!--</div>-->
-
-     <wxc-panel padding-body="0">
-             <slider class="slider" append="tree" interval="{{sliders.interval}}" auto-play="{{sliders.autoPlay}}">
-               <indicator class="indicator"></indicator>
-               <slider-page repeat="{{sliders.sliderPages}}"></slider-page>
-             </slider>
-      </wxc-panel>
-
+     <div >
+         <slider class="slider" append="tree" interval="{{sliders.interval}}" auto-play="{{sliders.autoPlay}}">
+             <indicator class="indicator"></indicator>
+             <slider-page repeat="{{sliders.sliderPages}}"></slider-page>
+         </slider>
+     </div>
  </wxc-navpage>
 
 
@@ -25,15 +18,15 @@
 
 .slider {
     flex-direction: row;
-    margin-left: 8;
-    margin-right: 8;
+    margin-left: 0;
+    margin-right: 0;
   }
 
  .indicator {
     position: absolute;
     width: 690;
-    height: 400;
-    top: 140;
+    height: 280;
+    top: 190;
     left: 240;
     itemColor: #dddddd;
     itemSelectedColor: rgb(40, 96, 144);
@@ -43,10 +36,8 @@
 
 <script>
  require('weex-components');
- var apis = require('../common/apis');
 
-    var img0 = 'https://ss0.bdstatic.com/70cFvHSh_Q1YnxGkpoWK1HF6hhy/it/u=150776860,710677028&fm=116&gp=0.jpg';
-    var img1 = 'https://ss0.bdstatic.com/70cFuHSh_Q1YnxGkpoWK1HF6hhy/it/u=1208767633,516149307&fm=116&gp=0.jpg';
+ var apis = require('../common/apis');
 
     module.exports = {
         data : {
@@ -62,10 +53,6 @@
          leftItemSrc: 'https://raw.githubusercontent.com/lchen1991/gtest/master/icon_chenge.png',
          leftItemTitle: '',
          leftItemColor: 'black',
-
-         progressicon1:'https://raw.githubusercontent.com/lchen1991/gtest/master/stateview_loading_icon.png',
-
-         progressicon1:'https://raw.githubusercontent.com/lchen1991/gtest/master/stateview_no_network.png',
 
          eventCnt: 0,
          sliders: {
