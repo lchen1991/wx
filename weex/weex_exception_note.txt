@@ -1,0 +1,16 @@
+1、	端口占用
+  events.js:160
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE 0.0.0.0:8081
+    at Object.exports._errnoException (util.js:1022:11)
+    at exports._exceptionWithHostPort (util.js:1045:20)
+    at Server._listen2 (net.js:1262:14)
+    at listen (net.js:1298:10)
+    at doListening (net.js:1397:7)
+    at _combinedTickCallback (internal/process/next_tick.js:77:11)
+    at process._tickCallback (internal/process/next_tick.js:98:9)
+
+  lsof -n -P| grep :8082  查询到pid  打开进程活动 关闭
+

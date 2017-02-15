@@ -1,0 +1,38 @@
+1、什么是Weex
+	
+
+2、Weex的工作原理
+   图示
+
+3、使用
+  (1)环境安装
+   Weex 官方提供了 weex-toolkit 来辅助开发和调试。首先，你需要 Node.js 和 weex-toolkit。
+   brew install node
+   通常，安装了 Node.js 环境，npm 包管理工具也随之安装了。因此，直接使用 npm 来安装 weex-toolkit。
+   【*npm 是一个 JavaScript 包管理工具，它可以让开发者轻松共享和重用代码】
+   npm install -g weex-toolkit@beta
+
+   (2)创建weex工程
+      weex init liking-fit
+      weex xxx.we
+      xxx.we 图示
+
+   (3) 如何三端运行？
+      weexpack 使用
+     【weexpack 是 weex 新一代的工程开发套件。它能够帮助开发者通过命令行创建weex工程，添加相应平台的weex app模版，并基于模版从本地、GitHub 或者 	weex 应用市场安装插件，快速打包 weex 应用并安装到手机运行】
+      weexpack create （创建 weex 工程项目）
+      weexpack platform add/remove — 安装／移除 weex 应用模版
+      weexpack platform list — 查看已安装的平台模版及版本。
+      weexpack platform run - 打包应用并安装到设备运行。
+      
+4、weex的代码编写
+   图解
+  结构、语法。。。。
+  
+5、weex的扩展
+
+6、weex的开发工具
+
+7、weex的成长
+
+8、week的对比（优缺点）

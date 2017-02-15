@@ -1,0 +1,38 @@
+
+官方文档:
+https://weex-project.io/cn/
+
+http://dotwe.org/
+
+完整项目事例：weex one 
+https://weex-project.io/cn/
+
+1、安装node.js 
+  (1)可以去官网下载安装
+  (2)使用homebrew 安装 :brew install node, 
+     然后使用： npm (js包管理工具)，npm install -g weed-toolkit
+
+2、使用：
+  页面基本元素：(类似于web页中的html,css,javascript)
+  <—内容>
+  <template></template>
+  <—样式>  
+  <style></style> 
+  <脚本逻辑>
+  <script></script>
+
+  简单实例：
+  <template>
+   <div> <text class=“text” >say hi</text> <div>
+  </template>
+  <style>
+    .text {
+      font-size:18
+    } 
+  </style>
+
+ 预览：weex xxx.we ;debug模式：weex debug.we
+
+语法：
+1、
+			
