@@ -14,5 +14,9 @@
     {
         "outputFile": "/Users/budao/app-framework-android/bin/templates/appframework/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
         "map": []
+    },
+    {
+        "outputFile": "/Users/chenlei/github/wx/Android-Liking/platforms/android/appframework/build/intermediates/incremental/mergeReleaseResources/merged.dir/values/values.xml",
+        "map": []
     }
 ]

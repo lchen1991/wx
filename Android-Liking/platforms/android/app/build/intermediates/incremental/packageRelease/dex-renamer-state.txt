@@ -1,0 +1,4 @@
+#Thu Feb 16 22:04:21 CST 2017
+base.0=/Users/chenlei/github/wx/Android-Liking/platforms/android/app/build/intermediates/transforms/dex/release/folders/1000/1f/main
+renamed.0=classes.dex
+file.0=/Users/chenlei/github/wx/Android-Liking/platforms/android/app/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex
