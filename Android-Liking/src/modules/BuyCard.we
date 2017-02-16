@@ -1,0 +1,30 @@
+<template>
+
+    <wxc-navpage data-role="none" height={{navBarHeight}} background-color="{{backgroundColor}}"
+                 title={{title}} title-color="{{titleColor}}" >
+
+    </wxc-navpage>
+</template>
+
+<script>
+    require('weex-components');
+
+    module.exports = {
+        data: {
+            dataRole: 'navbar',
+            backgroundColor: '#2e2f34',
+            navBarHeight: 120,
+            title: "购卡",
+            titleColor: '#23ec7d',
+
+
+        },
+        methods: {
+
+        }
+    }
+</script>
+
+<style>
+
+</style>

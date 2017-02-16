@@ -12,31 +12,45 @@ import android.view.animation.RotateAnimation;
 import android.view.animation.ScaleAnimation;
 import android.util.Log;
 import com.alibaba.weex.commons.util.AppConfig;
+import android.os.Handler;
 
 public class SplashActivity extends AppCompatActivity {
 
+  private Handler handler = new Handler();
 
   @Override
   protected void onCreate(Bundle savedInstanceState) {
     super.onCreate(savedInstanceState);
     setContentView(R.layout.activity_splash);
     Log.e("info","----------------SplashActivity---------------");
-    View textView = findViewById(R.id.fullscreen_content);
-    ScaleAnimation scaleAnimation = new ScaleAnimation(0.0f, 1.0f, 0.0f, 1.0f, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
-    RotateAnimation rotateAnimation = new RotateAnimation(0f, 360f, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
+//    View textView = findViewById(R.id.fullscreen_content);
+//    ScaleAnimation scaleAnimation = new ScaleAnimation(0.0f, 1.0f, 0.0f, 1.0f, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
+//    RotateAnimation rotateAnimation = new RotateAnimation(0f, 360f, Animation.RELATIVE_TO_SELF, 0.5f, Animation.RELATIVE_TO_SELF, 0.5f);
 
-    AnimationSet animationSet = new AnimationSet(false);
-    animationSet.addAnimation(scaleAnimation);
-    animationSet.addAnimation(rotateAnimation);
-    animationSet.setDuration(1500);
+//    AnimationSet animationSet = new AnimationSet(false);
+//    animationSet.addAnimation(scaleAnimation);
+//    animationSet.addAnimation(rotateAnimation);
+//    animationSet.setDuration(1500);
+//
+//    animationSet.setAnimationListener(new Animation.AnimationListener() {
+//      @Override
+//      public void onAnimationStart(Animation animation) {
+//      }
+//
+//      @Override
+//      public void onAnimationEnd(Animation animation) {
+//
+//      }
+//
+//      @Override
+//      public void onAnimationRepeat(Animation animation) {
+//      }
+//    });
+//    textView.startAnimation(animationSet);
 
-    animationSet.setAnimationListener(new Animation.AnimationListener() {
+    handler.postDelayed(new Runnable() {
       @Override
-      public void onAnimationStart(Animation animation) {
-      }
-
-      @Override
-      public void onAnimationEnd(Animation animation) {
+      public void run() {
         String url;
         if (AppConfig.isLaunchLocally()) {
           url = AppConfig.getLocalUrl();
@@ -63,11 +77,6 @@ public class SplashActivity extends AppCompatActivity {
         startActivity(intent);
         finish();
       }
-
-      @Override
-      public void onAnimationRepeat(Animation animation) {
-      }
-    });
-    textView.startAnimation(animationSet);
+    },1500);
   }
 }

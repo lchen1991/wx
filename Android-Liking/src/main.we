@@ -35,7 +35,7 @@
                  icon: '',
                  image: 'https://raw.githubusercontent.com/lchen1991/gtest/master/recharge_gray.png',
                  selectedImage: 'https://raw.githubusercontent.com/lchen1991/gtest/master/recharge_green.png',
-                 src: 'modules/tabbar-item.js?itemId=tab2',
+                 src: 'modules/BuyCard.js',
                  visibility: 'hidden',
                },
                {

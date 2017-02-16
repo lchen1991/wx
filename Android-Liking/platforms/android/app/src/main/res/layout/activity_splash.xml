@@ -3,16 +3,16 @@
              android:layout_width="match_parent"
              android:layout_height="match_parent"
              android:id="@+id/container"
-             android:background="#0099cc"
+             android:background = "@drawable/bg"
              tools:context="com.alibaba.weex.SplashActivity">
 
-    <TextView android:id="@+id/fullscreen_content"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              android:keepScreenOn="true"
-              android:textColor="#33b5e5"
-              android:textStyle="bold"
-              android:textSize="50sp"
-              android:gravity="center"
-              android:text="@string/dummy_content"/>
+    <!--<TextView android:id="@+id/fullscreen_content"-->
+              <!--android:layout_width="match_parent"-->
+              <!--android:layout_height="match_parent"-->
+              <!--android:keepScreenOn="true"-->
+              <!--android:textColor="#33b5e5"-->
+              <!--android:textStyle="bold"-->
+              <!--android:textSize="50sp"-->
+              <!--android:gravity="center"-->
+              <!--android:text="@string/dummy_content"/>-->
 </FrameLayout>

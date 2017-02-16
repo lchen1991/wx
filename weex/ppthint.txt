@@ -1,26 +1,31 @@
 1、什么是Weex
-	
+  （1）轻量级的移动端跨平台动态性技术解决方案
+     通过HTML、CSS、JavaScript就可以构建原生应用。
+     Weex的理念是write once run anywhere，也就是三端体验一致，让大家专注于业务，写一份代码 iOS、    Android、 H5都能够适用。
+  （2）几个特点：
+     - 轻量：体积小巧，语法简单，方便接入和上手
+     - 可扩展：业务方可去中心化横向定制组件和功能模块
+     - 高性能：高速加载、高速渲染、体验流畅
 
 2、Weex的工作原理
    图示 （三张）
   .we文件开发之后，经过Transformer模块将.we 文件转为 JS Bundle，JS Bundle（主要描述了业务页面的模  板、结构、数据逻辑）；然后再将其部署到业务服务端。客户端访问Weex页面时，首先会网络请求JS Bundle，JS Bundle被加载到客户端本地后，会进入JS Framework中进行解析渲染；JS Framework解析和渲染的过程其实是根据JS Bundle的数据结构创建Virtual DOM 和数据绑定，然后通过JS Bridge发送给各个平台的RenderEngine进行Native渲染。渲染后产生的就是纯Native页面。
 
-3、使用
+3、weex的使用
   (1)环境安装
-   Weex 官方提供了 weex-toolkit 来辅助开发和调试。首先，你需要 Node.js 和 weex-toolkit。
-   brew install node
-   通常，安装了 Node.js 环境，npm 包管理工具也随之安装了。因此，直接使用 npm 来安装 weex-toolkit。
+    Weex官方提供了weex-toolkit 来辅助开发和调试。首先，你需要Node.js和weex-toolkit。
+    brew install node
+    通常，安装了 Node.js 环境，npm 包管理工具也随之安装了。因此，直接使用 npm 来安装 weex-toolkit。
    【*npm 是一个 JavaScript 包管理工具，它可以让开发者轻松共享和重用代码】
-   npm install -g weex-toolkit@beta
-
-   (2)创建weex工程
-      weex init liking-fit
-      weex xxx.we
-      xxx.we 图示
-
-   (3) 如何三端运行？
-      weexpack 使用
-     【weexpack 是 weex 新一代的工程开发套件。它能够帮助开发者通过命令行创建weex工程，添加相应平台的weex app模版，并基于模版从本地、GitHub 或者 	weex 应用市场安装插件，快速打包 weex 应用并安装到手机运行】
+    npm install -g weex-toolkit@beta
+  (2)创建weex工程
+     $weex init liking-fit
+     $ npm install                   //依赖安装 package.json文件
+     $ npm run dev                   //项目编译
+     $ npm run serve                 //启动轻量服务器     
+     weex xxx.we
+  (3)如何三端运行？
+     【weexpack是weex新一代的工程开发套件。它能够帮助开发者通过命令行创建weex工程，添加相应平台的weex app模版，并基于模版从本地、GitHub或者weex应用市场安装插件，快速打包weex应用并安装到手机运行】
       weexpack create （创建 weex 工程项目）
       weexpack platform add/remove — 安装／移除 weex 应用模版
       weexpack platform list — 查看已安装的平台模版及版本。
@@ -29,11 +34,49 @@
 4、weex的代码编写
    图解
   结构、语法。。。。
+  Weex的生命周期
+
+<script>
+  module.exports = {
+    data: {},
+    methods: {},
+
+    init: function () {
+      console.log('在初始化内部变量，并且添加了事件功能后被触发');
+    },
+    created: function () {
+      console.log('完成数据绑定之后，模板编译之前被触发');
+    },
+    ready: function () {
+      console.log('模板已经编译并且生成了 Virtual DOM 之后被触发');
+    },
+    destroyed: function () {
+      console.log('在页面被销毁时调用');
+    }
+  }
+</script>
+
+init内一般用于初始化一些内部变量，绑定一些自定义事件，这时还没有数据绑定，没有创建vdom，所以不能通过this获取到data和methods，也不能获取vdom的节点
+
+created 完成了数据绑定 ，但还未开始编译模板，可以通过this获取data和methods，但不能获取vdom的节点
+
+ready表示渲染完成 ，从子组件往上触发
+
+destroyed 组件销毁，比如页面跳转，从子组件开始往上触发
   
 5、weex的扩展
-
-6、weex的开发工具
+   图解
 
 7、weex的成长
 
 8、week的对比（优缺点）
+     
+     1、能够灵活扩展
+     2、能够多端统一
+     3、能够优雅“降级”到 HTML5
+     4、能够保持较低的开发成本
+     5、能够快速迭代
+     6、能够轻量实时发布
+     7、能够融入现有的 native 技术体系
+
+React Native重视平台独立性，不能做到100%代码共用，实际上还是要学习各平台的特性，Weex希望做到100%共用，即一次编写到处运行，进一步降低开发门槛。
